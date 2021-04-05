@@ -2,10 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../../index.css";
-import Home2 from "./homeContent";
+import hc from "./homeContent";
 import Particle from "../particle";
 import Type from "./type";
-import homeLogo from "../../assets/home-main.svg";
+import logo from "../../assets/home-main.svg";
 
 
 function Home() {
@@ -30,12 +30,12 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img src={homeLogo} alt="home pic" className="img-fluid" />
+              <img src={logo} alt="home pic" className="img-fluid" />
             </Col>
           </Row>
         </Container>
       </Container>
-      <Home2 />
+      <hc />
     </section>
   );
 };

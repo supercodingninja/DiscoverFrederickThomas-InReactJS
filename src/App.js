@@ -9,7 +9,7 @@ import Navbar from './components/navbar/navBar';
 import Home from './components/home/home';
 // import About from './components/about/';
 // import Projects from './components/projects/';
-// import Footer from './components/footer';
+import Footer from './components/footer/footer';
 // import Resume from './components/resume/';
 // import ScrollToTop from './components/ScrollToTop'; //  //I'm not sure if I will still need this as I apply parallax scroll, and other .CSS tricks- we'll see. //
 
