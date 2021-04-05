@@ -1,9 +1,9 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { Container, Row, Col } from "react-bootstrap";
-import champion from "../../Assets/images/CHAMPION.jpeg";
 import "../../index.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import champion from "../../Assets/images/CHAMPION.jpeg";
 
 function homeContent() {
   

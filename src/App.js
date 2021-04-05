@@ -11,7 +11,7 @@ import Home from './components/home/home';
 // import Projects from './components/projects/';
 import Footer from './components/footer/footer';
 // import Resume from './components/resume/';
-// import ScrollToTop from './components/ScrollToTop'; //  //I'm not sure if I will still need this as I apply parallax scroll, and other .CSS tricks- we'll see. //
+import Scroll from './components/scroll'; //  //I'm not sure if I will still need this as I apply parallax scroll, and other .CSS tricks- we'll see. //
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
@@ -31,13 +31,13 @@ function App() {
         <div className='App' id={load ? 'no-scroll' : 'scroll'}>
             <Navbar />
             
-            <ScrollToTop />
+            <Scroll />
             
             <Switch>
                 <Route path='/' exact component={Home} />
-                // <Route path='/project' component={Projects} />
-                // <Route path='/about' component={About} />
-                // <Route path='/resume' component={Resume} />
+                {/* <Route path='/project' component={Projects} /> */}
+                <Route path='/about' component={About} />
+                {/* <Route path='/resume' component={Resume} /> */}
             </Switch>
             
             <Footer />
