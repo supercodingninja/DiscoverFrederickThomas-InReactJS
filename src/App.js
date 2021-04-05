@@ -5,17 +5,17 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import Preloader from '../src/components/preloader';
 
-// import Navbar from './components/navbar';
-// import Home from './components/home/';
+import Navbar from './components/navbar/navBar';
+import Home from './components/home/home';
 // import About from './components/about/';
 // import Projects from './components/projects/';
 // import Footer from './components/footer';
 // import Resume from './components/resume/';
 // import ScrollToTop from './components/ScrollToTop'; //  //I'm not sure if I will still need this as I apply parallax scroll, and other .CSS tricks- we'll see. //
 
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
@@ -34,10 +34,10 @@ function App() {
             <ScrollToTop />
             
             <Switch>
-                {/* <Route path='/' exact component={Home} />
-                <Route path='/project' component={Projects} />
-                <Route path='/about' component={About} />
-                <Route path='/resume' component={Resume} /> */}
+                <Route path='/' exact component={Home} />
+                // <Route path='/project' component={Projects} />
+                // <Route path='/about' component={About} />
+                // <Route path='/resume' component={Resume} />
             </Switch>
             
             <Footer />
