@@ -105,7 +105,7 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/Resume"
                 onClick={() => updateExpanded(false)}
               >
                 <i className="far fa-file-alt">&nbsp;Resume</i>

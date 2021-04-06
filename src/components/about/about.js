@@ -9,10 +9,12 @@ import '../../style.css';
 import Aboutcard from './AboutCard';
 import Github from './Github';
 import Techstack from './Techstack';
-import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
-import codeWars from '../../Assets/icons/codeWars.jpeg';
-import gitHub from '../../Assets/icons/gitHub-grad.jpeg';
-import outlook from '../../Assets/icons/iconfinder_74-outlook_4202101.png';
+
+// USE TECH STACK APPROACH, INSTEAD OF EVERYTHING YOU'VE DONE. //
+// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
+// import codeWars from '../../Assets/icons/codeWars.jpeg';
+// import gitHub from '../../Assets/icons/gitHub-grad.jpeg';
+// import outlook from '../../Assets/icons/iconfinder_74-outlook_4202101.png';
 // import codePen from '../../Assets/iconfinder_LinkedIn-social-media-logo_2220673.png';
 // import codePen from '../../Assets/icons/iconfinder_Microsoft_Office-07_6296671.png';
 // import codePen from '../../Assets/icons/OperationCode.png';
@@ -64,11 +66,9 @@ function About() {
           Professional <strong className='blue'>Skillset </strong>
         </h1>
 
-
+        {/* Reach out to network and get stack to appear.  Use empty placeholders, for now. */}
         {/* See Ref. https://stackshare.io/stacks */}
         <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
-          <img src={gitHub}/>
-
           <Techstack iconName='devicon-javascript-plain ' />
           <Techstack iconName='devicon-nodejs-plain-wordmark ' />
           <Techstack iconName='devicon-express-original-wordmark' />
