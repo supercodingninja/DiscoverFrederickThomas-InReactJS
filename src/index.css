@@ -581,7 +581,7 @@ html {
   box-shadow: 0 4px 4px 5px #dfb26a !important;
 }
 
-.blog-card {
+.fb-card {
   padding-top: 50px !important;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
@@ -589,7 +589,7 @@ html {
   height: auto !important;
 }
 
-.blog-card-view {
+.fb-card-view {
   background-color: transparent !important;
   box-shadow: 0 3px 3px 2px #dfb26a !important;
   color: white !important;
@@ -597,16 +597,16 @@ html {
   height: 100% !important;
 }
 
-.blog-link {
+.fb-link {
   color: white !important;
   text-decoration: none !important;
 }
 
-.blog-link:hover {
+.fb-link:hover {
   cursor: pointer !important;
 }
 
-.blog-card-view:hover {
+.fb-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
   box-shadow: 0 3px 3px 5px #dfb26a !important;
@@ -618,7 +618,7 @@ html {
   border-radius: 10px !important;
 }
 
-.blog-img {
+.fb-img {
   padding: 0px !important;
   opacity: 0.8 !important;
   border-radius: 0px !important;
