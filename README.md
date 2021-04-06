@@ -1,7 +1,7 @@
 
 
 # Repository: Portfolio_Discover-Frederick-Thomas
-##### [Deployed Application](https://supercodingninja.github.io/Portfolio_Discover-Frederick-Thomas/)
+##### [Previous Deployed Application](https://supercodingninja.github.io/Portfolio_Discover-Frederick-Thomas/)
 
 #### DiscoverFrederickThomas-InReactJS© 2021 All Rights Reserved.  All material must be cited or credited, when using material (free to use).
 
