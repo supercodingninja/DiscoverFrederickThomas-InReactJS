@@ -10,6 +10,16 @@ const uri = config.getSecretToken();
 const app = express();
 const Port = process.env.PORT || 3600;
 
+const path = require("path");
+
+const routes = app => {
+  app.use((req, res) => {
+    res.sendFile(path.join(__dirname, "../public/index.html"));
+  });
+};
+
+module.exports = routes;
+
 app.use(cors());
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
