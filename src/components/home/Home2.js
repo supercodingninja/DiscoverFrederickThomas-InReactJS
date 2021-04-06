@@ -1,9 +1,9 @@
 import React from "react";
 import Tilt from "react-parallax-tilt";
 import { Container, Row, Col } from "react-bootstrap";
-import "../../index.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import champion from "../../Assets/images/CHAMPION.jpeg";
+import "../../style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function homeContent() {
   
@@ -19,7 +19,7 @@ function homeContent() {
             </h1>
            
            {/* TRY TO MAKE THIS <div> IT'S OWN PARALLAX SCROLL SECTION!!! */}
-            <div className="home-about-body">
+            <div className="home-about-body grabbingDpromises">
               <p>
                 Some people are born with greatness- others, greatness is thrust upon them; but I just seek to bring out the greatness of my team,<i><b className="blue">&nbsp;by being my greatest, daily</b></i>.  Just hover and dance with the image; and imagine you holding the trophy- do you feel like a winner: do you realize "greatness is within you."- Les Brown
               </p>

@@ -3,11 +3,30 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Particle from '../Particle';
-import '../../style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Github from './Github';
-import theGuyInTheChair from './theGuyInTheChair';
+import '../../style.css';
+// import './devicon.css';
 import Aboutcard from './AboutCard';
+import Github from './Github';
+import Techstack from './Techstack';
+import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
+import codeWars from '../../Assets/icons/codeWars.jpeg';
+import gitHub from '../../Assets/icons/gitHub-grad.jpeg';
+import outlook from '../../Assets/icons/iconfinder_74-outlook_4202101.png';
+// import codePen from '../../Assets/iconfinder_LinkedIn-social-media-logo_2220673.png';
+// import codePen from '../../Assets/icons/iconfinder_Microsoft_Office-07_6296671.png';
+// import codePen from '../../Assets/icons/OperationCode.png';
+// import codePen from '../../Assets/icons/YouTube.png';
+// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
+// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
+// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
+// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
+// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
+// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
+// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
+// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
+// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
+// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
 import cute from '../../Assets/images/t1.jpeg';
 
 function About() {
@@ -44,29 +63,27 @@ function About() {
         <h1 className='project-heading'>
           Professional <strong className='blue'>Skillset </strong>
         </h1>
+
+
+        {/* See Ref. https://stackshare.io/stacks */}
         <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
-          <theGuyInTheChair iconName='devicon-cplusplus-line' />
-          <theGuyInTheChair iconName='devicon-python-plain-wordmark ' />
-          <theGuyInTheChair iconName='cib-pytorch' />
-          <theGuyInTheChair iconName='cib-tensorflow' />
-          <theGuyInTheChair iconName='devicon-javascript-plain ' />
-          <theGuyInTheChair iconName='devicon-nodejs-plain-wordmark ' />
-          <theGuyInTheChair iconName='devicon-express-original-wordmark' />
-          <theGuyInTheChair iconName='devicon-react-original-wordmark' />
-          <theGuyInTheChair iconName='devicon-mongodb-plain-wordmark' />
-          <theGuyInTheChair iconName='devicon-git-plain-wordmark' />
-          <theGuyInTheChair iconName='devicon-bootstrap-plain-wordmark' />
+          <img src={gitHub}/>
+
+          <Techstack iconName='devicon-javascript-plain ' />
+          <Techstack iconName='devicon-nodejs-plain-wordmark ' />
+          <Techstack iconName='devicon-express-original-wordmark' />
+          <Techstack iconName='devicon-react-original-wordmark' />
+          <Techstack iconName='devicon-mongodb-plain-wordmark' />
+          <Techstack iconName='devicon-git-plain-wordmark' />
+          <Techstack iconName='devicon-bootstrap-plain-wordmark' />
         </Row>
         <h1 className='project-heading'>
           <strong className='blue'>Tools</strong> I use
         </h1>
         <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
-          <theGuyInTheChair iconName='devicon-linux-plain' />
-          <theGuyInTheChair iconName='cib-visual-studio-code' />
-          <theGuyInTheChair iconName='cib-anaconda' />
-          <theGuyInTheChair iconName='cib-postman' />
-          <theGuyInTheChair iconName='cib-zeit' />
-          <theGuyInTheChair iconName='cib-heroku' />
+          <Techstack iconName='cib-visual-studio-code' />
+          <Techstack iconName='cib-postman' />
+          <Techstack iconName='cib-heroku' />
         </Row>
         <Github />
 

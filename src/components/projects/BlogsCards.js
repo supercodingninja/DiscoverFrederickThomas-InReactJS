@@ -3,7 +3,7 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../index.css';
+import '../../style.css';
 
 function fbCards(props) {
   

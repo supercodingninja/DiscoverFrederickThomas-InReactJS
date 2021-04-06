@@ -6,7 +6,7 @@ import Particle from '../Particle';
 import Project from './ProjectCards';
 import fbCard from './BlogsCards';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../index.css';
+import '../../style.css';
 
 import cr from '../../Assets/Projects/cr.png';
 import codePen from '../../Assets/Projects/codePen.png';
@@ -175,8 +175,8 @@ function myProjects() {
               />
             </Col>
 
-          {/* Placeholders for future projects I desire to include (not finished with assignments, yet). */}
-          {/* <Col md={4} className='pro-card'>
+          
+          <Col md={4} className='pro-card'>
             <Project
               imgPath={team}
               isBlog={false}
@@ -184,7 +184,10 @@ function myProjects() {
               description=''
               link=''
             />
-          </Col> */}
+          </Col>
+     
+     
+          {/* Placeholders for future projects I desire to include (not finished with assignments, yet). */}
 
 
           {/* <Col md={4} className='pro-card'>

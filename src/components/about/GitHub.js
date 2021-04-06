@@ -4,8 +4,7 @@ import React from 'react';
 import GitHubCalendar from 'react-github-calendar';
 import { Row } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import '../../index.css';
-import '../../App.css';
+import '../../style.css';
 
 function Github() {
   

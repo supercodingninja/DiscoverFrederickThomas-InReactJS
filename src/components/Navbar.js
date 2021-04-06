@@ -1,23 +1,29 @@
+import { Link } from "react-router-dom";
+import React, { useState } from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "../index.css";
+import "../style.css";
 import logo from "../Assets/logo.png";
 import logo2 from "../Assets/images/pro_fam.jpeg";
-import Button from "react-bootstrap/Button";
 
 function NavBar() {
+  
   const [expand, updateExpanded] = useState(false);
   const [navColour, updateNavbar] = useState(false);
 
   function scrollHandler() {
+    
     if (window.scrollY >= 20) {
+      
       updateNavbar(true);
+    
     } else {
+     
       updateNavbar(false);
+    
     }
   }
 
@@ -28,7 +34,7 @@ function NavBar() {
     <Navbar
       expanded={expand}
       fixed="top"
-      expand="md"
+      expand="lg"
       className={navColour ? "sticky" : "navbar"}
     >
 

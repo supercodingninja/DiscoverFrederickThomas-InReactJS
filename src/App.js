@@ -1,23 +1,16 @@
-'use strict';
-
-import React, { useState, useEffect } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-
-import Preloader from '../src/components/preloader';
-
-import Navbar from './components/navbar/navBar';
-import Home from './components/home/home';
-import About from './components/about/about';
-import Projects from './components/projects/projects';
-import Footer from './components/footer/footer';
-// import Resume from './components/resume/';
-import Scroll from './components/scroll'; //  //I'm not sure if I will still need this as I apply parallax scroll, and other .CSS tricks- we'll see. //
-
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
-import './App.css';
-
-
+import "./App.css";
+import React, { useState, useEffect } from "react";
+import Preloader from "../src/components/Pre";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home/Home";
+import About from "./components/About/About";
+import Projects from "./components/Projects/Projects";
+import Footer from "./components/Footer";
+// import Resume from "./components/Resume/Resume";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import "./style.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   const [load, upadateLoad] = useState(true);
   useEffect(() => {
@@ -27,23 +20,20 @@ function App() {
   }, []);
   return (
     <Router>
-        <Preloader load={load} />
-        <div className='App' id={load ? 'no-scroll' : 'scroll'}>
-            <Navbar />
-            
-            <Scroll />
-            
-            <Switch>
-                <Route path='/' exact component={Home} />
-                <Route path='/project' component={Projects} />
-                <Route path='/about' component={About} />
-                {/* <Route path='/resume' component={Resume} /> */}
-            </Switch>
-            
-            <Footer />
-        </div>
+      <Preloader load={load} />
+      <div className="App" id={load ? "no-scroll" : "scroll"}>
+        <Navbar />
+        <ScrollToTop />
+        <Switch>
+          <Route path="/" exact component={Home} />
+          <Route path="/project" component={Projects} />
+          <Route path="/about" component={About} />
+          {/* <Route path="/resume" component={Resume} /> */}
+        </Switch>
+        <Footer />
+      </div>
     </Router>
   );
-};
+}
 
 export default App;

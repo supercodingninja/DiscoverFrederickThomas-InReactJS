@@ -24,7 +24,7 @@ function AboutCard() {
               <i className='far fa-hand-point-right'>&nbsp;&nbsp;&nbsp;I built a strong network.</i>
             </li>
 
-
+    
             <li className='about-activity'>
               <i className='far fa-hand-point-right'>&nbsp;&nbsp;&nbsp;I learned to read and implement documentation.</i>
             </li>
@@ -39,7 +39,7 @@ function AboutCard() {
           <p style={{ marginBlockEnd: 0, color: '#27268f', textShadow: '0px 1px 0px #dfb26a' }}>
           'Game-plan:' Clear, Focused, Thorough: 'Gather the facts, Analyze the facts, Make a plan; and Execute it triumphantly- THAT'S HOW YOU WIN A G.A.M.E!'{' '}
           </p>
-          <footer className='blockquote-footer' style={{ color: '#27268f', textShadow: '0px 1px 0px #dfb26a' }}>Sergeant First Class Frederick D. Thomas, Sr., Retired U.S. Army</footer>
+          <footer className='blockquote-footer' style={{ color: '#27268f', textShadow: '0px 1px 0px #dfb26a' }}>Bronze Star Recipient Sergeant First Class Frederick D. Thomas, Sr., Retired U.S. Army</footer>
         </blockquote>
       </Card.Body>
     </Card>
