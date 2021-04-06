@@ -18,15 +18,21 @@ function AboutCard() {
             I recentyly survived an extremely rare disease (non-contagious); and shortly after, I battled COVID-19 (all during my Coding Bootcamp curriclum.  I <span className='blue'>never gave up</span>!  My father refers to me as "a fighting caterpillar"; because a caterpiller has to fight it's way out of the cocoon it spun (like humans, it has to get itself out the mess it put itself in).  <span className='blue'>I</span> fought and <span className='blue'>Won</span>:
           </p>
 
+
           <ul>
             <li className='about-activity'>
               <i className='far fa-hand-point-right'>&nbsp;&nbsp;&nbsp;I built a strong network.</i>
             </li>
+
+
             <li className='about-activity'>
               <i className='far fa-hand-point-right'>&nbsp;&nbsp;&nbsp;I learned to read and implement documentation.</i>
             </li>
+
+
             <li className='about-activity'>
-              <i className='far fa-hand-point-right'>&nbsp;&nbsp;&nbsp;I "learned to learn"</i>
+              <i className='far fa-hand-point-right'>&nbsp;&nbsp;&nbsp;I "learned to learn," there's always a new language or tool (stay<br>
+              </br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;up-to-date vs. being in need for an update).</i>
             </li>
           </ul>
 
