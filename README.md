@@ -1,8 +1,8 @@
 
 
-<h1 align="center">Repository: Portfolio_Discover-Frederick-Thomas</h1>
-
-<a href="https://drive.google.com/file/d/1wlOBT72VkCaP3OAWMr3gJU83SP0DvQWK/view"><img src="/src/Assets/DFT.gif"></a>
+<h1 align="center">DiscoverFrederickThomas-InReactJS</h1>
+<figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation.
+<a href="https://drive.google.com/file/d/1wlOBT72VkCaP3OAWMr3gJU83SP0DvQWK/view"><img src="/src/Assets/DFT.gif" 180x180></a>
 
 ##### [Previous Deployed Application](https://supercodingninja.github.io/Portfolio_Discover-Frederick-Thomas/)
 
