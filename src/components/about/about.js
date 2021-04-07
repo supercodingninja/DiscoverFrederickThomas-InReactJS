@@ -4,8 +4,8 @@ import Particle from '../Particle';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../style.css';
 // import './devicon.css';
-import Aboutcard from './AboutCard';
-import Github from './Github';
+import Aboutcard from './aboutCard';
+import Github from './GitHub';
 import Techstack from './Techstack';
 
 // USE TECH STACK APPROACH, INSTEAD OF EVERYTHING YOU'VE DONE. //

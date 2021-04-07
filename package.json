@@ -1,5 +1,5 @@
 {
-  "name": "discoverfrederickthomas-inreactjs",
+  "name": "portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,10 +8,6 @@
     "@testing-library/user-event": "^12.6.0",
     "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
-    "express": "^4.17.1",
-    "gh-pages": "^3.1.0",
-    "jekyll": "^3.0.0-beta1",
-    "nodejs": "^14.16.1",
     "react": "^17.0.1",
     "react-bootstrap": "^1.4.0",
     "react-dom": "^17.0.1",
@@ -46,18 +42,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "#### DiscoverFrederickThomas-InReactJS© 2021 All Rights Reserved.  All material must be cited or credited, when using material (free to use).",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/supercodingninja/DiscoverFrederickThomas-InReactJS.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/supercodingninja/DiscoverFrederickThomas-InReactJS/issues"
-  },
-  "homepage": "https://github.com/supercodingninja/DiscoverFrederickThomas-InReactJS#readme"
+  }
 }

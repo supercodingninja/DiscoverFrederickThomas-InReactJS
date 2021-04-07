@@ -68,6 +68,9 @@ Have you ever considered creating a portfolio?  Whether you're looking for a par
 
 ## The Development (See the Transformation)
 ###### [Back to Table of Contents](#Table-of-Contents)
+
+
+
 #### Demo of our last application (without profile photo) ![Demo](./Assets/Media/Demo/cssDemo.gif)
 #### Our Last Application ![Application](./Assets/Media/Demo/ScreenShot.jpg)
 

@@ -11,7 +11,7 @@ import Type from './Type';
 function Home() {
   return (
     <section>
-      <a class="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a>
+      {/* <a className="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a> */}
 
       <Container fluid className='home-section' id='home'>
         <Particle />
@@ -41,7 +41,7 @@ function Home() {
       </Container>
       <Home2 />
 
-      <a href="#" class="to-top">Back to top</a>
+      <a href="#top">Back to top</a>
     </section>
   );
 };
