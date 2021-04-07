@@ -2,7 +2,7 @@
 
 <h1 align="center">Repository: Portfolio_Discover-Frederick-Thomas</h1>
 
-<a href="https://drive.google.com/file/d/1wlOBT72VkCaP3OAWMr3gJU83SP0DvQWK/view"><img src="/src/Assets/DFT.gif">
+<a href="https://drive.google.com/file/d/1wlOBT72VkCaP3OAWMr3gJU83SP0DvQWK/view"><img src="/src/Assets/DFT.gif"></a>
 
 ##### [Previous Deployed Application](https://supercodingninja.github.io/Portfolio_Discover-Frederick-Thomas/)
 
