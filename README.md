@@ -1,8 +1,10 @@
 
 
 <h1 align="center">DiscoverFrederickThomas-InReactJS</h1>
-<figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation.
-<a href="https://drive.google.com/file/d/1wlOBT72VkCaP3OAWMr3gJU83SP0DvQWK/view"><img src="/src/Assets/DFT.gif" 180x180></a>
+
+<figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation.</figcaption>
+
+<a href="https://drive.google.com/file/d/1wlOBT72VkCaP3OAWMr3gJU83SP0DvQWK/view"><img src="./src/Assets/DFT.gif" width="1280" height="720" align="center"></a>
 
 ##### [Previous Deployed Application](https://supercodingninja.github.io/Portfolio_Discover-Frederick-Thomas/)
 
@@ -71,11 +73,11 @@ Have you ever considered creating a portfolio?  Whether you're looking for a par
 
 ## The Development (See the Transformation)
 ###### [Back to Table of Contents](#Table-of-Contents)
-
-<a href="https://drive.google.com/file/d/1jYlryWEc2Ma4EyUOL5lsHAfIQjwupHlY/view"><img src="/src/Assets/mobile.gif"></a>
-<img src="./src/Assets/Screen Shot 2021-04-07 at 8.29.37 AM.png">
-<img src="./src/Assets/Screen Shot 2021-04-07 at 8.35.08 AM.png">
-<img src="./src/Assets/ghsp.jpg">
+<figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation.</figcaption>
+<a href="https://drive.google.com/file/d/1jYlryWEc2Ma4EyUOL5lsHAfIQjwupHlY/view"><img src="./src/Assets/mobile.gif" width="1280" height="720" align="center"></a>
+<img src="./src/Assets/Screen Shot 2021-04-07 at 8.29.37 AM.png" style="width:100%">
+<img src="./src/Assets/Screen Shot 2021-04-07 at 8.35.08 AM.png" style="width:100%">
+<img src="./src/Assets/ghsp.jpg" style="width:100%">
 
 #### Demo of our last application (without profile photo) ![Demo](./Assets/Media/Demo/cssDemo.gif)
 #### Our Last Application ![Application](./Assets/Media/Demo/ScreenShot.jpg)
