@@ -15,8 +15,8 @@ function Resume() {
   const uri = "";
   const [spojRank, upadteSpojRank] = useState(0);
   const [hackerrank, upadteHackerank] = useState(0);
-  const [sem, upadateSem] = useState(0);
-  const [cgpa, upadteCgpa] = useState(0);
+  const [, upadateSem] = useState(0);
+  const [, upadteCgpa] = useState(0);
 
   useEffect(() => {
     axios
@@ -192,7 +192,13 @@ function Resume() {
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <a href="#" class="to-top">Back to top</a>
+          
+        <a 
+          href="/#"
+          className="to-top"
+          
+        >Back to top</a>
+        
         </Row>
       </Container>
     </Container>

@@ -295,7 +295,12 @@ function myProjects() {
           </Col>
         </Row>
 
-        <a href="#" class="to-top">Back to top</a>
+        <a 
+          href="/#"
+          className="to-top"
+          
+        >Back to top</a>
+        
       </Container>
     </Container>
   );
