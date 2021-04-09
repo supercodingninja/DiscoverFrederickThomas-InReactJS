@@ -81,7 +81,9 @@ Have you ever considered creating a portfolio?  Whether you're looking for a par
 
 <img src="./src/Assets/devTools.png" width="380" height="380" align="center">
 
+
 <img src="./src/Assets/mobile.gif" width="380" height="380" align="center">
+
 
 <img src="./src/Assets/ghsp.jpg" width="380" height="380" align="center">
 
