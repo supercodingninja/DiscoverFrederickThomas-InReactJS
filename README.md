@@ -76,16 +76,16 @@ Have you ever considered creating a portfolio?  Whether you're looking for a par
 
 <figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation.</figcaption>
 
-<a href="https://drive.google.com/file/d/1jYlryWEc2Ma4EyUOL5lsHAfIQjwupHlY/view"><img src="./src/Assets/mobile.gif" width="380" height="380" align="center"></a>
+<a src="./src/Assets/mobile.gif" href="https://drive.google.com/file/d/1jYlryWEc2Ma4EyUOL5lsHAfIQjwupHlY/view"><img src="./src/Assets/mobile.gif" width="380" height="380" align="center" style="col-2 row"></a>
 
 
-<img src="/resume.png" width="380" height="380" align="center">
+<img src="/resume.png" width="380" height="380" align="center" style="col-2 row">
 
 
-<img src="/about.png" width="380" height="380" align="center">
+<img src="/about.png" width="380" height="380" align="center" style="col-2 row">
 
 
-<img src="/thisIsme.png" width="380" height="380" align="center">
+<img src="/thisIsme.png" width="380" height="380" align="center" style="col-2 row">
 
 #### Demo of our last application (without profile photo) ![Demo](./Assets/Media/Demo/cssDemo.gif)
 #### Our Last Application ![Application](./Assets/Media/Demo/ScreenShot.jpg)
