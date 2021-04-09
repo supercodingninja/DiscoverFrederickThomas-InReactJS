@@ -4,8 +4,8 @@ import Particle from '../Particle';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../style.css';
 // import './devicon.css';
-import Aboutcard from './aboutCard';
-import Github from './GitHub';
+import Aboutcard from './AboutCard';
+import Github from './Github';
 import Techstack from './Techstack';
 
 // USE TECH STACK APPROACH, INSTEAD OF EVERYTHING YOU'VE DONE. //
@@ -85,12 +85,7 @@ function About() {
         </Row>
         <Github />
 
-        <a 
-          href="/#"
-          className="to-top"
-          
-        >Back to top</a>
-        
+        <a href="#" class="to-top">Back to top</a>
       </Container>
     </Container>
   );
