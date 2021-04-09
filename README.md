@@ -1,6 +1,6 @@
 
 
-<h1 align="center"><a href="https://frederickthomas-inreactjs.herokuapp.com/">DiscoverFrederickThomas-InReactJS</a></h1>
+<h1 align="center"><a href="https://frederickthomas-inreactjs.herokuapp.com/">👉🏿DiscoverFrederickThomas-InReactJS👈🏿</a></h1>
 
 <figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation; or Experience the Successful Deployment, 👉🏿<a href="https://frederickthomas-inreactjs.herokuapp.com/">Here</a>👈🏿!!!</figcaption>
 
@@ -76,7 +76,7 @@ Have you ever considered creating a portfolio?  Whether you're looking for a par
 
 <figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation.</figcaption>
 
-<a src="./src/Assets/mobile.gif" href="https://drive.google.com/file/d/1jYlryWEc2Ma4EyUOL5lsHAfIQjwupHlY/view"><img src="./src/Assets/mobile.gif" width="380" height="380" align="center" style="col-2 row"></a>
+<a src="./src/Assets/mobile.gif" href="https://drive.google.com/file/d/1jYlryWEc2Ma4EyUOL5lsHAfIQjwupHlY/view"><img src="/mobile.gif" width="380" height="380" align="center" style="col-2 row"></a>
 
 
 <img src="/resume.png" width="380" height="380" align="center" style="col-2 row">
