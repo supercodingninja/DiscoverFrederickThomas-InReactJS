@@ -2,7 +2,7 @@
 
 <h1 align="center">DiscoverFrederickThomas-InReactJS</h1>
 
-<figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation.</figcaption>
+<figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation; or Experience the Successful Deployment, 👉🏿<a href"https://frederickthomas-inreactjs.herokuapp.com/">Here</a>👈🏿!!!</figcaption>
 
 <a href="https://drive.google.com/file/d/1wlOBT72VkCaP3OAWMr3gJU83SP0DvQWK/view"><img src="/DFT.gif" width="720" height="400" align="center"></a>
 
