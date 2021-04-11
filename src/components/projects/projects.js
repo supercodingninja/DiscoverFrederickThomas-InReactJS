@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Particle from '../Particle';
+import Particle from '../particle';
 import Project from './ProjectCards';
 // import fbCard from './BlogsCards';
 import 'bootstrap/dist/css/bootstrap.min.css';
