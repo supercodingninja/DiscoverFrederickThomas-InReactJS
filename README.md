@@ -75,10 +75,9 @@ Have you ever considered creating a portfolio?  Whether you're looking for a par
 ###### [Back to Table of Contents](#Table-of-Contents)
 
 <figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation.</figcaption>
-
-<a src="./src/Assets/mobile.gif" href="https://drive.google.com/file/d/1jYlryWEc2Ma4EyUOL5lsHAfIQjwupHlY/view"><img src="/mobile.gif" width="auto" height="400px" align="center" class="center"></a>
-
 <div class="row">
+   <a src="./src/Assets/mobile.gif" href="https://drive.google.com/file/d/1jYlryWEc2Ma4EyUOL5lsHAfIQjwupHlY/view"><img src="/mobile.gif" width="auto" height="400px" align="center" class="center"></a>
+
    <img src="/resume.png" width="300" height="300" align="center" style="col-2 row">
 
 
