@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^12.6.0",
     "axios": "^0.21.1",
     "bootstrap": "^4.5.3",
+    "devicon": "^2.11.0",
     "http-proxy-middleware": "^1.1.0",
     "if-env": "^1.0.4",
     "react": "^17.0.1",
