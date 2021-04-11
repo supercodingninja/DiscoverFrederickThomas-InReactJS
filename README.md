@@ -79,13 +79,13 @@ Have you ever considered creating a portfolio?  Whether you're looking for a par
 <a src="./src/Assets/mobile.gif" href="https://drive.google.com/file/d/1jYlryWEc2Ma4EyUOL5lsHAfIQjwupHlY/view"><img src="/mobile.gif" width="380" height="380" align="center" style="col-2 row"></a>
 
 
-<img src="/resume.png" width="380" height="380" align="center" style="col-2 row">
+<img src="/resume.png" width="300" height="300" align="center" style="col-2 row">
 
 
-<img src="/about.png" width="380" height="380" align="center" style="col-2 row">
+<img src="/about.png" width="300" height="300" align="center" style="col-2 row">
 
 
-<img src="/thisIsme.png" width="380" height="380" align="center" style="col-2 row">
+<img src="/thisIsme.png" width="300" height="300" align="center" style="col-2 row">
 
 #### Demo of our last application (without profile photo) ![Demo](./Assets/Media/Demo/cssDemo.gif)
 #### Our Last Application ![Application](./Assets/Media/Demo/ScreenShot.jpg)
