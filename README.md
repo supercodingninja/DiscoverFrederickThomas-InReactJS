@@ -78,13 +78,13 @@ Have you ever considered creating a portfolio?  Whether you're looking for a par
 <div class="row">
    <a src="./src/Assets/mobile.gif" href="https://drive.google.com/file/d/1jYlryWEc2Ma4EyUOL5lsHAfIQjwupHlY/view"><img src="/mobile.gif" width="auto" height="400px" align="center" class="center"></a>
 
-   <img src="/resume.png" width="275" height="275" align="center" style="col-2 row">
+   <img src="/resume.png" width="250" height="250" align="center" style="col-2 row">
 
 
-   <img src="/about.png" width="275" height="275" align="center" style="col-2 row">
+   <img src="/about.png" width="250" height="250" align="center" style="col-2 row">
 
 
-   <img src="/thisIsme.png" width="275" height="275" align="center" style="col-2 row">
+   <img src="/thisIsme.png" width="250" height="250" align="center" style="col-2 row">
 </div>
 
 #### Demo of our last application (without profile photo) ![Demo](./Assets/Media/Demo/cssDemo.gif)
