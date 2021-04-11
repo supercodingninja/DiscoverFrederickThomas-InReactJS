@@ -1,5 +1,3 @@
-
-
 <h1 align="center"><a href="https://frederickthomas-inreactjs.herokuapp.com/">👉🏿DiscoverFrederickThomas-InReactJS👈🏿</a></h1>
 
 <figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation; or Experience the Successful Deployment, 👉🏿<a href="https://frederickthomas-inreactjs.herokuapp.com/">Here</a>👈🏿!!!</figcaption>
