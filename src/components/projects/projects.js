@@ -1,28 +1,28 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import Particle from '../particle';
-import Project from './ProjectCards';
+import Project from './projectcards';
 // import fbCard from './BlogsCards';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../style.css';
 
-import A from '../../Assets/Projects/A+.png';
-import cr from '../../Assets/Projects/cr.png';
-import codePen from '../../Assets/Projects/codePen.png';
-import CV from '../../Assets/Projects/CV.png';
-import Joia from '../../Assets/Projects/Joia.jpg';
-import KJV from '../../Assets/Projects/KJV.png';
-import mct from '../../Assets/Projects/mct.png';
-import NASA from '../../Assets/Projects/Nasa.png';
-import nt from '../../Assets/Projects/nt.png';
-import order from '../../Assets/Projects/order.png';
-import pg from '../../Assets/Projects/pg.png';
-import rmg from '../../Assets/Projects/rmg.png';
-import scn from '../../Assets/Projects/scn.png';
-import SCNfb from '../../Assets/Projects/SCNfb.png';
-import start from '../../Assets/Projects/start.png';
-import team from '../../Assets/Projects/team.png';
-import WFW from '../../Assets/Projects/WFW.png';
+import A from '../../assets/projects/A+.png';
+import cr from '../../assets/projects/cr.png';
+import codePen from '../../assets/projects/codePen.png';
+import CV from '../../assets/projects/CV.png';
+import Joia from '../../assets/projects/Joia.jpg';
+import KJV from '../../assets/projects/KJV.png';
+import mct from '../../assets/projects/mct.png';
+import NASA from '../../assets/projects/Nasa.png';
+import nt from '../../assets/projects/nt.png';
+import order from '../../assets/projects/order.png';
+import pg from '../../assets/projects/pg.png';
+import rmg from '../../assets/projects/rmg.png';
+import scn from '../../assets/projects/scn.png';
+import SCNfb from '../../assets/projects/SCNfb.png';
+import start from '../../assets/projects/start.png';
+import team from '../../assets/projects/team.png';
+import WFW from '../../assets/projects/WFW.png';
 
 
 function myProjects() {
