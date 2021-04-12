@@ -1,5 +1,5 @@
 /* .grabbingDpromises {
-  background-image: url(./Assets/images/grabbingPromises.jpeg);
+  background-image: url(./assets/images/grabbingPromises.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
 } */
@@ -83,7 +83,7 @@ html {
   z-index: 999999;
   color: #dfb26a;
   background-color: #0c0513;
-  background-image: url(./Assets/preloader.svg);
+  background-image: url(./assets/preloader.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -331,7 +331,7 @@ html {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/images/dreamOn.jpeg);
+  background-image: var(--image-gradient), url(./assets/images/dreamOn.jpeg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 2px !important;
@@ -342,7 +342,7 @@ html {
 .home-section2 {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/images/grad.jpeg);
+  background-image: var(--image-gradient), url(./assets/images/grad.jpeg);
   background-size: 75vw, 100vh;
   background-position: top center;
   background-repeat: no-repeat;

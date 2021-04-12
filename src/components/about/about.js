@@ -27,7 +27,7 @@ import Techstack from './techstack';
 // import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
 // import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
 // import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
-import cute from '../../Assets/images/t1.jpeg';
+import cute from '../../assets/images/t1.jpeg';
 
 function About() {
   return (
