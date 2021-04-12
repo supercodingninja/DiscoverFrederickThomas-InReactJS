@@ -79,9 +79,9 @@ function About() {
           <strong className='blue'>Tools</strong> I use
         </h1>
         <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
-          <Techstack iconName='cib-visual-studio-code' />
-          <Techstack iconName='cib-postman' />
-          <Techstack iconName='cib-heroku' />
+          <Techstack iconName='devicon-visualstudio-plain-wordmark' />
+          <Techstack iconName='devicon-photoshop-line' />
+          <Techstack iconName='devicon-heroku-line-wordmark' />
         </Row>
         <Github />
 
