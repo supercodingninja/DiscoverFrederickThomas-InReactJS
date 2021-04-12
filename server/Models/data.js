@@ -1,4 +1,4 @@
-const mongooose = require("mongoose");
+const mongooose = require('mongoose');
 const schema = mongooose.Schema;
 
 const numLikes = schema({
@@ -10,4 +10,4 @@ const numLikes = schema({
   sem: { type: String, required: true },
 });
 
-module.exports = mongooose.model("likes", numLikes);
+module.exports = mongooose.model('likes', numLikes);

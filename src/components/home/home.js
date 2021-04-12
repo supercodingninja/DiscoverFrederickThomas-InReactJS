@@ -2,10 +2,10 @@ import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../../style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import homeLogo from '../../Assets/images/headOverHeals.jpeg';
+import homeLogo from '../../assets/images/headOverHeals.jpeg';
 import Particle from '../particle';
-import Home2 from './Home2';
-import Type from './Type';
+import Home2 from './homecontent';
+import Type from './type';
 
 
 function Home() {

@@ -6,8 +6,8 @@ import Container from "react-bootstrap/Container";
 import Button from "react-bootstrap/Button";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../style.css";
-import logo from "../Assets/logo.png";
-import logo2 from "../Assets/images/pro_fam.jpeg";
+import logo from "../assets/logo.png";
+import logo2 from "../assets/images/pro_fam.jpeg";
 
 function NavBar() {
   

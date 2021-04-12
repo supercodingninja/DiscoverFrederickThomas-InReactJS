@@ -4,9 +4,9 @@ import Particle from '../particle';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../style.css';
 // import './devicon.css';
-import Aboutcard from './AboutCard';
-import Github from './Github';
-import Techstack from './Techstack';
+import Aboutcard from './aboutcard';
+import Github from './github';
+import Techstack from './techstack';
 
 // USE TECH STACK APPROACH, INSTEAD OF EVERYTHING YOU'VE DONE. //
 // import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
