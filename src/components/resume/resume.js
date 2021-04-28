@@ -1,13 +1,14 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
-import Particle from "../particle";
-import Resumecontent from "./resumecontent";
+import Particle from "../Particle";
+import Resumecontent from "./ResumeContent";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
-import pdf from "../../assets/Hire Frederick D Thomas Jr_2021.pdf";
-import pdf2 from "../../assets/Frederick Thomas_CV_2021.pdf";
+import pdf from "../../Assets/Hire Frederick D Thomas Jr_2021.pdf";
+import pdf2 from "../../Assets/Frederick Thomas_CV_2021.pdf";
 
 function Resume() {
   // GET IN ON THIS, DAILY!!!!
@@ -192,7 +193,10 @@ function Resume() {
         </Row>
 
         <Row style={{ justifyContent: "center", position: "relative" }}>
-          <a href="#" class="to-top">Back to top</a>
+        <a 
+        href='#'
+        className='to-top
+        '>Back to top</a>
         </Row>
       </Container>
     </Container>

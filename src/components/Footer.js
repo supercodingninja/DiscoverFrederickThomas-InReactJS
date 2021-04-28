@@ -1,7 +1,7 @@
-import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-import "../style.css";
+import React from 'react';
+import { Container, Row, Col } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../style.css';
 
 function Footer() {
   
@@ -11,21 +11,20 @@ function Footer() {
   
   return (
   
-    <Container fluid className="footer">
+    <Container fluid className='footer'>
       <Row>
-    
-        <Col md="3" className="footer-copywright">
+        <Col md='3' className='footer-copywright'>
           <h3><i>DiscoverFrederickThomas-InReactJS</i></h3>
         </Col>
     
     
-        <Col md="4" className="footer-copywright">
+        <Col md='4' className='footer-copywright'>
           <h3>Copyright © {year} Frederick Thomas, Super Coding Ninja™</h3>
         </Col>
     
     
-        <Col md="5" className="footer-body">
-          {/* Social Icons And Online Platforms. */}
+        <Col md='5' className='footer-body'>
+          {/* Social Icons And Online Platforms.  Ref.: https://mdbootstrap.com/docs/standard/extended/social-media/ */}
           <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
@@ -51,6 +50,7 @@ function Footer() {
               </li>
 
 
+              {/* https://fontawesome.com/icons/envelope?style=regular */}
               <li className="social-icons">
                 <a
                   href="mailto:SuperCodingNinja@outlook.com"
@@ -58,7 +58,19 @@ function Footer() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="mail"></i>
+                  <i className="far fa-envelope"></i>
+                </a>
+              </li>
+
+
+              <li className="social-icons">
+                <a
+                  href="tel:+19195250548"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <i className="fas fa-phone-volume"></i>
                 </a>
               </li>
 
@@ -70,7 +82,7 @@ function Footer() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="youtube"></i>
+                  <i className="fab fa-youtube"></i>
                 </a>
               </li>
 
@@ -82,7 +94,7 @@ function Footer() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="dev"></i>
+                  <i className="fab fa-dev"></i>
                 </a>
               </li>
 
@@ -94,7 +106,19 @@ function Footer() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="fb"></i>
+                  <i className="fab fa-facebook"></i>
+                </a>
+              </li>
+              
+              
+              <li className="social-icons">
+                <a
+                  href="https://twitter.com/SCN2014Est"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <i className="fab fa-twitter"></i>
                 </a>
               </li>
 
@@ -106,7 +130,7 @@ function Footer() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="codepen"></i>
+                  <i className="fab fa-codepen"></i>
                 </a>
               </li>
             </ul>

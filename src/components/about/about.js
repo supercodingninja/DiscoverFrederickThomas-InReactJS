@@ -1,33 +1,15 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import Particle from '../particle';
+import Particle from '../Particle';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../style.css';
 // import './devicon.css';
-import Aboutcard from './aboutcard';
-import Github from './github';
-import Techstack from './techstack';
+import Aboutcard from './AboutCard';
+import Github from './Github';
+import Techstack from './Techstack';
 
-// USE TECH STACK APPROACH, INSTEAD OF EVERYTHING YOU'VE DONE. //
-// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
-// import codeWars from '../../Assets/icons/codeWars.jpeg';
-// import gitHub from '../../Assets/icons/gitHub-grad.jpeg';
-// import outlook from '../../Assets/icons/iconfinder_74-outlook_4202101.png';
-// import codePen from '../../Assets/iconfinder_LinkedIn-social-media-logo_2220673.png';
-// import codePen from '../../Assets/icons/iconfinder_Microsoft_Office-07_6296671.png';
-// import codePen from '../../Assets/icons/OperationCode.png';
-// import codePen from '../../Assets/icons/YouTube.png';
-// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
-// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
-// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
-// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
-// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
-// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
-// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
-// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
-// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
-// import codePen from '../../Assets/icons/codePen_Button-Fill-White-Large.png';
-import cute from '../../assets/images/t1.jpeg';
+import cute from '../../Assets/images/t1.jpeg';
 
 function About() {
   return (
@@ -86,7 +68,7 @@ function About() {
         <Github />
 
         <a 
-        href='/#'
+        href='#'
         className='to-top
         '>Back to top</a>
       </Container>

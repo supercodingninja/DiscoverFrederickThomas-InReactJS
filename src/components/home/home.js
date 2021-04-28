@@ -1,11 +1,12 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
 import '../../style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import homeLogo from '../../assets/images/headOverHeals.jpeg';
-import Particle from '../particle';
-import Home2 from './homecontent';
-import Type from './type';
+import homeLogo from '../../Assets/images/headOverHeals.jpeg';
+import Particle from '../Particle';
+import Home2 from './Home2';
+import Type from './Type';
 
 
 function Home() {
@@ -41,7 +42,10 @@ function Home() {
       </Container>
       <Home2 />
 
-      <a href="#top">Back to top</a>
+      <a 
+        href='#'
+        className='to-top
+        '>Back to top</a>
     </section>
   );
 };

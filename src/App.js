@@ -1,16 +1,16 @@
-import "./app.css";
+import "./App.css";
 import React, { useState, useEffect } from "react";
-import Preloader from "./components/preloader";
-import Navbar from "./components/navbar";
-import Home from "./components/home/home";
-import About from "./components/about/about";
-import Projects from "./components/projects/projects";
-import Footer from "./components/footer";
-import Resume from "./components/resume/resume";
+import Preloader from "../src/components/Pre";
+import Navbar from "./components/Navbar";
+import Home from "./components/home/Home";
+import About from "./components/about/About";
+import Projects from "./components/projects/Projects";
+import Footer from "./components/Footer";
+import Resume from "./components/resume/Resume";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import "./style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import ScrollToTop from "./components/scrolltotop";
+import ScrollToTop from "./components/ScrollToTop";
 function App() {
   const [load, upadateLoad] = useState(true);
   useEffect(() => {
@@ -26,9 +26,9 @@ function App() {
         <ScrollToTop />
         <Switch>
           <Route path="/" exact component={Home} />
-          <Route path="/project" component={Projects} />
-          <Route path="/about" component={About} />
-          <Route path="/resume" component={Resume} />
+          <Route path="/Project" component={Projects} />
+          <Route path="/About" component={About} />
+          <Route path="/Resume" component={Resume} />
         </Switch>
         <Footer />
       </div>
