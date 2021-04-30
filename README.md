@@ -1,6 +1,11 @@
 
 
-# Repository: Portfolio_Discover-Frederick-Thomas
+<h1 align="center">DiscoverFrederickThomas-InReactJS</h1>
+
+<figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation.</figcaption>
+
+<a href="https://drive.google.com/file/d/1wlOBT72VkCaP3OAWMr3gJU83SP0DvQWK/view"><img src="/DFT.gif" width="720" height="400" align="center"></a>
+
 ##### [Previous Deployed Application](https://supercodingninja.github.io/Portfolio_Discover-Frederick-Thomas/)
 
 #### DiscoverFrederickThomas-InReactJS© 2021 All Rights Reserved.  All material must be cited or credited, when using material (free to use).
@@ -68,6 +73,18 @@ Have you ever considered creating a portfolio?  Whether you're looking for a par
 
 ## The Development (See the Transformation)
 ###### [Back to Table of Contents](#Table-of-Contents)
+
+<figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation.</figcaption>
+
+<a href="https://drive.google.com/file/d/1jYlryWEc2Ma4EyUOL5lsHAfIQjwupHlY/view"><img src="./src/Assets/mobile.gif" width="380" height="380" align="center"></a>
+
+
+<img src="./src/Assets/devTools.png" width="380" height="380" align="center">
+
+<img src="./src/Assets/mobile.gif" width="380" height="380" align="center">
+
+<img src="./src/Assets/ghsp.jpg" width="380" height="380" align="center">
+
 #### Demo of our last application (without profile photo) ![Demo](./Assets/Media/Demo/cssDemo.gif)
 #### Our Last Application ![Application](./Assets/Media/Demo/ScreenShot.jpg)
 

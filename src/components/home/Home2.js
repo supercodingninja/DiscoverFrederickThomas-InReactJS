@@ -39,7 +39,7 @@ function homeContent() {
               <div className="parallax"></div>
               
               <p>
-                I live my life; and I love it: I don't let social or political extremes, nor norms dictate how I live; because I have<i><b className="blue"> a moral compass</b></i>, which causes me to naturally treat my fellow person with respect, as I believe GOD desires.  I'm well-versed: I love playing various types of saxophones; especially for GOD!  I sing casually and formally; and although, many would say I'm extroverted, my MBTI states otherwise.  I just believe that <i><b className="blue">YOU CAN</b></i> be who you <i><b className="blue">desire</b></i> to be.  it's all up to you, and I, is it not: it is.  
+                I live my life; and I love it: I don't let social or political extremes, nor norms dictate how I live; because I have<i><b className="blue"> a moral compass</b></i>, which causes me to naturally treat my fellow person with respect, as I believe GOD desires.  I'm well-versed: I love playing various types of saxophones; especially for GOD!  I sing casually and formally; and although, many would say I'm extroverted, my MBTI states otherwise.  I just believe that <i><b className="blue">YOU CAN</b></i> be who you <i><b className="blue">desire</b></i> to be.  It's all up to you, and I, is it not: it is.  
               </p>
             </div>
           </Col>
@@ -66,20 +66,8 @@ function homeContent() {
             </p>
 
 
-            {/* Social Icons And Online Platforms. */}
+            {/* Social Icons And Online Platforms.  Ref.: https://mdbootstrap.com/docs/standard/extended/social-media/ */}
             <ul className="home-about-social-links">
-              <li className="social-icons">
-                <a
-                  href="https://github.com/supercodingninja"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <i className="fab fa-github"></i>
-                </a>
-              </li>
-
-
               <li className="social-icons">
                 <a
                   href="https://linkedin.com/in/discoverfrederickthomas"
@@ -92,6 +80,7 @@ function homeContent() {
               </li>
 
 
+              {/* https://fontawesome.com/icons/envelope?style=regular */}
               <li className="social-icons">
                 <a
                   href="mailto:SuperCodingNinja@outlook.com"
@@ -99,31 +88,19 @@ function homeContent() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="mail"></i>
+                  <i className="far fa-envelope"></i>
                 </a>
               </li>
 
 
               <li className="social-icons">
                 <a
-                  href="https://www.youtube.com/playlist?list=PLnxMwdxjTgTEN-xRODXLJ6sI5hgz1lFbu"
+                  href="tel:+19195250548"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="youtube"></i>
-                </a>
-              </li>
-
-
-              <li className="social-icons">
-                <a
-                  href="https://dev.to/supercodingninja"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <i className="dev"></i>
+                  <i className="fas fa-phone-volume"></i>
                 </a>
               </li>
 
@@ -135,19 +112,19 @@ function homeContent() {
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="fb"></i>
+                  <i className="fab fa-facebook"></i>
                 </a>
               </li>
-
-
+              
+              
               <li className="social-icons">
                 <a
-                  href="https://codepen.io/supercodingninja"
+                  href="https://twitter.com/SCN2014Est"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <i className="codepen"></i>
+                  <i className="fab fa-twitter"></i>
                 </a>
               </li>
             </ul>
