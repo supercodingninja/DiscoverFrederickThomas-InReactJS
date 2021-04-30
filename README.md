@@ -1,5 +1,5 @@
 
 
-<h1 align="center">Coming Soon: All About Me</h1>
+<h1 align="center">Coming Soon: Super Coding Ninja</h1>
 
-<h4>My Life, My Character, My Triumphs!</h4>
+<h4>The Origin, The Success, Fan Page, Blogs; and More!</h4>
