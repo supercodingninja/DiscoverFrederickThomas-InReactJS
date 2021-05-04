@@ -67,10 +67,12 @@ function About() {
         </Row>
         <Github />
 
-        <a 
-        href='#'
-        className='to-top
-        '>Back to top</a>
+        <Row style={{ justifyContent: "center", position: "relative" }}>
+          <a 
+          href='#'
+          className='to-top
+          '>Back to top</a>
+        </Row>
       </Container>
     </Container>
   );
