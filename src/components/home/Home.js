@@ -11,9 +11,14 @@ import Type from './Type';
 
 function Home() {
   return (
-    <section>
-      {/* <a className="ca3-scroll-down-link ca3-scroll-down-arrow" data-ca3_iconfont="ETmodules" data-ca3_icon=""></a> */}
 
+    <section>
+      
+      <div className='arrow1'></div>
+      
+      <div className='arrow2'></div>
+      
+      
       <Container fluid className='home-section' id='home'>
         <Particle />
         <Container className='home-content myWidth'>

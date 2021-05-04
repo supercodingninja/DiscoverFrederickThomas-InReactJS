@@ -21,35 +21,52 @@ html {
   --imp-text-color: #dfb26a;
 }
 
-.ca3-scroll-down-arrow {
-	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJ3aGl0ZSIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
-	background-size: contain;
-	background-repeat: no-repeat;
+/* Scroll Arrows on home componet (home.js) */
+.arrow1 {
+  width: 2em;
+  height: 2em;
+  background-color: transparent;
+  z-index: 80; 
+  bottom: 25px;
+  position: absolute;
+  border-width: 0 0.25em 0.25em 0;
+  border-style: solid;
+  border-color: antiquewhite;
+  animation: scrolldown 1.2s ease-in-out infinite 0.15s;
 }
 
-.ca3-scroll-down-link {
-  cursor:pointer;
-	height: 60px;
-	width: 80px;
-	margin: 0px 0 0 -40px;
-	line-height: 60px;
-	position: absolute;
-	left: 50%;
-	bottom: 0px;
-	color: #FFF;
-	text-align: center;
-	font-size: 70px;
-	z-index: 100;
-	text-decoration: none;
-	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
 
-	-webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
-	-moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
-	animation:         ca3_fade_move_down 2s ease-in-out infinite;
+.arrow2{
+  width: 2em;
+  height: 2em;
+  background-color: transparent;
+  z-index: 80; 
+  bottom: 50px;
+  position: absolute;
+  border-width: 0 0.25em 0.25em 0;
+  border-style: solid;
+  border-color: antiquewhite;
+  animation: scrolldown 1.2s ease-in-out infinite;
 }
 
 
 /*animated scroll arrow animation*/
+@keyframes scrolldown {
+  0%{
+      transform: translateY(20%) rotate(45deg);
+      opacity: 0.7;
+  }
+  50%{
+      transform: translateY(0%) rotate(45deg);
+      opacity: 0.2;
+  }
+  100%{
+      transform: translateY(20%) rotate(45deg);
+      opacity: 0.7;
+  }
+}
+
+
 @-webkit-keyframes ca3_fade_move_down {
   0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
   50%  { opacity: 1;  }
