@@ -47,7 +47,7 @@ function Home() {
       </Container>
       <Home2 />
 
-      <Row style={{ justifyContent: "center", position: "relative" }}>
+      <Row style={{ justifyContent: 'center', position: 'relative' }}>
           <a 
           href='#'
           className='to-top
