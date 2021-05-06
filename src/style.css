@@ -93,7 +93,6 @@ html {
   z-index: 999999;
   color: #dfb26a;
   background-color: #0c0513;
-  background-image: url(./Assets/preloader.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -103,11 +102,65 @@ html {
 }
 
 .text {
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  align-self: center;
+  position:absolute;
+  top: 50%;
+  left: 60%;
+}
+
+
+.lds-hourglass {
+  display: inline-block;
+  position: absolute;
+  top: 42%;
+  left: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-hourglass:after {
+  content: " ";
+  display: block;
+  border-radius: 50%;
+  width: 0;
+  height: 0;
+  margin: 8px;
+  box-sizing: border-box;
+  border: 85px solid;
+  border-color: #27268f transparent #dfb26a transparent;
+  animation: lds-hourglass .3s infinite;
+}
+.spin1 {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 56%;
   z-index: 999999;
+  width: 80px;
+  height: 80px;
+}
+
+.spin2 {
+  display: inline-block;
+  position: absolute;
+  top: 100%;
+  left: 145%;
+  z-index: 999999;
+  width: 80px;
+  height: 80px;
+}
+
+@keyframes lds-hourglass {
+  0% {
+    transform: rotate(0);
+    animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  }
+  50% {
+    transform: rotate(900deg);
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  100% {
+    transform: rotate(1800deg);
+  }
 }
 
 #no-scroll {
