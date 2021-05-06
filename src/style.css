@@ -102,6 +102,14 @@ html {
   opacity: 0;
 }
 
+.text {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+  z-index: 999999;
+}
+
 #no-scroll {
   overflow: hidden;
   height: 100vh;
