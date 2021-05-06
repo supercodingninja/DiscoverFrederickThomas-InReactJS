@@ -92,7 +92,7 @@ html {
   height: 100%;
   z-index: 999999;
   color: #dfb26a;
-  background-color: #0c0513;
+  background-color: #63809d;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -101,13 +101,7 @@ html {
   opacity: 0;
 }
 
-.text {
-  position:absolute;
-  top: 50%;
-  left: 60%;
-}
-
-
+/* Inspired by https://loading.io/css/ */
 .lds-hourglass {
   display: inline-block;
   position: absolute;
@@ -147,6 +141,56 @@ html {
   z-index: 999999;
   width: 80px;
   height: 80px;
+}
+
+.text {
+  position:absolute;
+  top: 50%;
+  left: 60.5%;
+  font-size: larger;
+}
+
+.race {
+  position: absolute;
+  top: 0;
+  left: 22%;
+  width: 100%;
+  height: 100%;
+  z-index: 999999;
+  background-color: transparent;
+  background-image: url(./Assets/race.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+span {
+  position: absolute;
+  height: 2px;
+  width: 20%;
+  background: #000;
+
+  &:nth-child(1) {
+    top: 20%;
+    animation: lf .6s linear infinite;
+    animation-delay: -5s;
+  }
+
+  &:nth-child(2) {
+    top: 40%;
+    animation: lf2 .8s linear infinite;
+    animation-delay: -1s;
+  }
+
+  &:nth-child(3) {
+    top: 60%;
+    animation: lf3 .6s linear infinite;
+  }
+
+  &:nth-child(4) {
+    top: 80%;
+    animation: lf4 .5s linear infinite;
+    animation-delay: -3s;
+  }
 }
 
 @keyframes lds-hourglass {
