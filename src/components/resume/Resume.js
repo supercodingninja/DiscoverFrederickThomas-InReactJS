@@ -8,7 +8,7 @@ import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import axios from "axios";
 import pdf from "../../Assets/Hire Frederick D Thomas Jr_2021.pdf";
-import pdf2 from "../../Assets/Frederick Thomas_CV_2021.pdf";
+import pdf2 from "../../Assets/Hire Frederick D Thomas Jr_2021.docx";
 
 function Resume() {
   // GET IN ON THIS, DAILY!!!!
