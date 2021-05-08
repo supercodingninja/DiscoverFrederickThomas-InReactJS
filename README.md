@@ -4,7 +4,7 @@
 
 <figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation.</figcaption>
 
-<a href="https://drive.google.com/drive/u/1/my-drive?ths=true"><img src="/DFT.gif" width="720" height="400" align="center"></a>
+<a href="https://drive.google.com/file/d/1ACCeOx1bG2hzMvN2ShP5THlib795W8QG/view"><img src="/DFT.gif" width="720" height="400" align="center"></a>
 
 ##### [Previous Deployed Application](https://supercodingninja.github.io/Portfolio_Discover-Frederick-Thomas/)
 
