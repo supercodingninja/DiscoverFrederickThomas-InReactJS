@@ -85,32 +85,6 @@ Have you ever considered creating a portfolio?  Whether you're looking for a par
 
 <img src="./src/Assets/ghsp.jpg" width="380" height="380" align="center">
 
-#### Demo of our last application (without profile photo) ![Demo](./Assets/Media/Demo/cssDemo.gif)
-#### Our Last Application ![Application](./Assets/Media/Demo/ScreenShot.jpg)
-
-#### Awesome <a href="https://supercodingninja.github.io/markdown-cv/">Curriculum Vitae</a> I Coded
-![CV](Assets/Media/Demo/us.gif)
-
-#### .PDF Resume attached! ![Resume](./Assets/Media/Demo/ScreenShot2.png)
-
-### HTML5
-###### [Back to Table of Contents](#Table-of-Contents)
-#### Head ![Head](./Assets/Media/Demo/HTML1.png)
-#### Page Navigation Menu ![Page Navigation Menu](./Assets/Media/Demo/HTML2.png)
-#### Phrases ![Phrases](./Assets/Media/Demo/HTML3.png)
-
-### CSS3
-###### [Back to Table of Contents](#Table-of-Contents)
-#### Body and Header (not the "head" tag) ![Begin CSS](./Assets/Media/Demo/CSS1.png)
-#### Page Navigation Menu ![Page Navigation Menu](./Assets/Media/Demo/CSS2.png)
-#### Phrases ![Phrases](./Assets/Media/Demo/CSS3.png)
-
-### Javascript & jQuery (checkout the original tutorial, by Dave Rupert)
-###### [Back to Table of Contents](#Table-of-Contents)
-#### The Children ![Children](./Assets/Media/Demo/JS1.png)
-#### Functions ![Page Navigation Menu](./Assets/Media/Demo/JS2.png)
-#### Scaling for various viewports ![Scale](./Assets/Media/Demo/JS3.png)
-
 
 ## References
 ###### [Back to Table of Contents](#Table-of-Contents)
