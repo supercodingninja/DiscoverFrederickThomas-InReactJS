@@ -73,7 +73,7 @@ function About() {
           <Techstack iconName='devicon-mysql-plain-wordmark'/>
           <Techstack iconName='devicon-npm-original-wordmark'/>
           <Techstack iconName='devicon-dot-net-plain-wordmark' />
-          <Techstack iconName='devicon-objectivec-plain'/>
+          {/* <Techstack iconName='devicon-objectivec-plain'/> */}
           <Techstack iconName='devicon-oracle-plain'/>
           <Techstack iconName='devicon-python-plain-wordmark'/>
           <Techstack iconName='devicon-safari-plain-wordmark'/>
