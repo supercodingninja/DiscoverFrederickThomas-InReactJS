@@ -13,17 +13,9 @@ function Footer() {
   
     <Container fluid className='footer'>
       <Row>
-        <Col md='3' className='footer-copywright'>
-          <h3><i>DiscoverFrederickThomas-InReactJS</i></h3>
-        </Col>
-    
-    
-        <Col md='4' className='footer-copywright'>
-          <h3>Copyright © {year} Frederick Thomas, Super Coding Ninja™</h3>
-        </Col>
-    
-    
-        <Col md='5' className='footer-body'>
+        <Col md='5' className='footer-copywright'>
+          <h3><i>DiscoverFrederickThomas-InReactJS</i> © {year} Frederick Thomas, Super Coding Ninja™</h3>
+        
           {/* Social Icons And Online Platforms.  Ref.: https://mdbootstrap.com/docs/standard/extended/social-media/ */}
           <ul className="home-about-social-links">
               <li className="social-icons">
@@ -134,6 +126,14 @@ function Footer() {
                 </a>
               </li>
             </ul>
+        </Col>
+
+
+        <Col sm='2' className='footer-body'>
+          <a 
+          href='#top'
+          className='to-top
+          '>Back to top</a>
         </Col>
       </Row>
     </Container>

@@ -107,14 +107,8 @@ function About() {
           <Techstack iconName='devicon-visualstudio-plain-wordmark'/>
           <Techstack iconName='devicon-webpack-plain-wordmark'/>
         </Row>
+        
         <Github />
-
-        <Row style={{ justifyContent: "center", position: "relative" }}>
-          <a 
-          href='#'
-          className='to-top
-          '>Back to top</a>
-        </Row>
       </Container>
     </Container>
   );
