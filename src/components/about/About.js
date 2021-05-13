@@ -107,7 +107,6 @@ function About() {
           <Techstack iconName='devicon-visualstudio-plain-wordmark'/>
           <Techstack iconName='devicon-webpack-plain-wordmark'/>
         </Row>
-        
         <Github />
       </Container>
     </Container>
