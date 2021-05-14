@@ -1,5 +1,3 @@
-
-
 <h1 align="center">DiscoverFrederickThomas-InReactJS</h1>
 
 <figcaption align="center">👇🏿Click the .gif, below👇🏿 to view a video demonstation.</figcaption>
