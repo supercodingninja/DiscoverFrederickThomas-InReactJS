@@ -625,6 +625,7 @@ html {
 }
 
 .pro-card {
+  font: larger;
   padding-top: 50px !important;
   padding-bottom: 50px !important;
   padding-left: 25px !important;
@@ -641,9 +642,9 @@ html {
   height: 100% !important;
 }
 .pro-card-view:hover {
-  transform: scale(1.02) !important;
+  transform: scale(1.2) !important;
   overflow: hidden !important;
-  box-shadow: 0 4px 4px 5px #dfb26a !important;
+  box-shadow: 0 4px 4px 5px #27268f !important;
 }
 
 .fb-card {
