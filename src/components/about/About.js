@@ -46,31 +46,68 @@ function About() {
           Professional <strong className='blue'>Skillset </strong>
         </h1>
 
-        {/* Reach out to network and get stack to appear.  Use empty placeholders, for now. */}
-        {/* See Ref. https://stackshare.io/stacks */}
+        {/* See Ref. https://devicon.dev/; and https://stackshare.io/stacks */}
         <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
-          <Techstack iconName='devicon-javascript-plain ' />
-          <Techstack iconName='devicon-nodejs-plain-wordmark ' />
-          <Techstack iconName='devicon-express-original-wordmark' />
-          <Techstack iconName='devicon-react-original-wordmark' />
-          <Techstack iconName='devicon-mongodb-plain-wordmark' />
-          <Techstack iconName='devicon-git-plain-wordmark' />
-          <Techstack iconName='devicon-bootstrap-plain-wordmark' />
+          <Techstack iconName='devicon-aftereffects-plain'/>
+          <Techstack iconName='devicon-amazonwebservices-plain-wordmark'/>
+          <Techstack iconName='devicon-android-plain-wordmark'/>
+          <Techstack iconName='devicon-atom-original-wordmark'/>
+          <Techstack iconName='devicon-chrome-plain-wordmark' />
+          <Techstack iconName='devicon-codepen-original-wordmark'/>
+          <Techstack iconName='devicon-csharp-plain'/>
+          <Techstack iconName='devicon-facebook-original'/>
+          <Techstack iconName='devicon-figma-plain'/>
+          <Techstack iconName='devicon-firefox-plain-wordmark' />
+          <Techstack iconName='devicon-git-plain-wordmark'/>
+          <Techstack iconName='devicon-gitlab-plain-wordmark'/>
+          <Techstack iconName='devicon-googlecloud-plain-wordmark'/>
+          <Techstack iconName='devicon-handlebars-plain-wordmark'/>
+          <Techstack iconName='devicon-ie10-original'/>
+          <Techstack iconName='devicon-illustrator-line'/>
+          <Techstack iconName='devicon-ionic-original-wordmark'/>
+          <Techstack iconName='devicon-java-plain-wordmark'/>
+          <Techstack iconName='devicon-javascript-plain'/>
+          <Techstack iconName='devicon-jquery-plain-wordmark'/>
+          <Techstack iconName='devicon-linkedin-plain-wordmark'/>
+          <Techstack iconName='devicon-materialui-plain'/>
+          <Techstack iconName='devicon-mysql-plain-wordmark'/>
+          <Techstack iconName='devicon-npm-original-wordmark'/>
+          <Techstack iconName='devicon-dot-net-plain-wordmark' />
+          {/* <Techstack iconName='devicon-objectivec-plain'/> */}
+          <Techstack iconName='devicon-oracle-plain'/>
+          <Techstack iconName='devicon-python-plain-wordmark'/>
+          <Techstack iconName='devicon-safari-plain-wordmark'/>
+          <Techstack iconName='devicon-sass-original'/>
+          <Techstack iconName='devicon-travis-plain-wordmark'/>
+          <Techstack iconName='devicon-twitter-original'/>
+          <Techstack iconName='devicon-typescript-plain'/>
+          <Techstack iconName='devicon-ubuntu-plain-wordmark'/>
+          <Techstack iconName='devicon-windows8-original'/>
+          <Techstack iconName='devicon-wordpress-plain-wordmark'/>
+          <Techstack iconName='devicon-xd-line'/>
         </Row>
+
         <h1 className='project-heading'>
           <strong className='blue'>Tools</strong> I use
         </h1>
+
         <Row style={{ justifyContent: 'center', paddingBottom: '50px' }}>
-          <Techstack iconName='devicon-visualstudio-plain-wordmark' />
-          <Techstack iconName='devicon-photoshop-line' />
-          <Techstack iconName='devicon-heroku-line-wordmark' />
+          <Techstack iconName='devicon-bootstrap-plain-wordmark'/>
+          <Techstack iconName='devicon-css3-plain-wordmark'/>
+          <Techstack iconName='devicon-devicon-plain-wordmark'/>
+          <Techstack iconName='devicon-express-original-wordmark'/>
+          <Techstack iconName='devicon-github-original-wordmark'/>
+          <Techstack iconName='devicon-heroku-line-wordmark'/>
+          <Techstack iconName='devicon-html5-plain-wordmark'/>
+          <Techstack iconName='devicon-mongodb-plain-wordmark'/>
+          <Techstack iconName='devicon-nodejs-plain-wordmark'/>
+          <Techstack iconName='devicon-photoshop-line'/>
+          <Techstack iconName='devicon-react-original-wordmark'/>
+          <Techstack iconName='devicon-slack-plain-wordmark'/>
+          <Techstack iconName='devicon-visualstudio-plain-wordmark'/>
+          <Techstack iconName='devicon-webpack-plain-wordmark'/>
         </Row>
         <Github />
-
-        <a 
-        href='#'
-        className='to-top
-        '>Back to top</a>
       </Container>
     </Container>
   );

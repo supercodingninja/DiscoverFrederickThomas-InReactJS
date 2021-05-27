@@ -68,19 +68,14 @@ function myProjects() {
           </Col>
 
 
-          <Col md={4} className='pro-card-view'>
+          <Col md={4} className='pro-card'>
             <Project
               imgPath={Joia}
               isBlog={false}
               title='Joia'
-              description='I developed myself, very, well among my peers, concerning vesion control; and I can not tell you the joy I had in being with a group who desired to utilize tools to protect our branches (especially our main), learn new technologies, take time to plan and set organization policies and structure (I am Marine, remember).  This was my Jewel Project!  Joia, pronounced as "Joy-ah," means gem or jewel. Joia is your jewel eCommerce website for local art, where you can find your gem for your Jewel or Jim!  There is so, much more that I hope to accomplish, at least, utilizing the logic: we built this application with so, many new technologies (we were not taught them) such as Typscript, ReactJS, bcrypt, JWT Authetication, Mutler; and more!  Our stack (MERN) was intense; especially since we only two weeks to build it.    Please feel free to view our repository👇🏿'
-              link='https://github.com/supercodingninja/Joia'
-            />
-            <Project
-              imgPath={A}
-              isBlog={false}
-              title='Feedback On Joia'
-              description= 'We made an A+!  We spent a week and an half planning, with tools such as ClickUp, Figma, Zoom, Google Meets, Slack.  We made it happen; and we recieved an A+ for our final project required for graduation!  I was a Project Manager of sorts.  I was more of a Project Manager, of sorts.  My particular roles were with the JWT Authentication and Back-end Registration, and repository management.  This truly was my favorite TEAM project; because we accomplished so, much together, and individually.  I almost died from I.T. P., and COVID-19, during my curriculum, prior to this very, assignment.  I GRADUATED!  I NEVER GAVE UP!  I NEVER WILL!  Please feel free to view our application👇🏿'
+              description='I developed myself, very, well among my peers, concerning vesion control; and I can not tell you the joy I had in being with a group who desired to utilize tools to protect our branches (especially our main), learn new technologies, take time to plan and set organization policies and structure (I am Marine, remember).  This was my Jewel Project!  Joia, pronounced as "Joy-ah," means gem or jewel. Joia is your jewel eCommerce website for local art, where you can find your gem for your Jewel or Jim!  There is so, much more that I hope to accomplish, at least, utilizing the logic: we built this application with so, many new technologies (we were not taught them) such as Typscript, ReactJS, bcrypt, JWT Authetication, Mutler; and more!  Our stack (MERN) was intense; especially since we only two weeks to build it.
+              
+              We made an A+!  We spent a week and an half planning, with tools such as ClickUp, Figma, Zoom, Google Meets, Slack.  We made it happen; and we recieved an A+ for our final project required for graduation!  I was a Project Manager of sorts.  I was more of a Project Manager, of sorts.  My particular roles were with the JWT Authentication and Back-end Registration, and repository management.  This truly was my favorite TEAM project; because we accomplished so, much together, and individually.  I almost died from I.T. P., and COVID-19, during my curriculum, prior to this very, assignment.  I GRADUATED!  I NEVER GAVE UP!  I NEVER WILL!  Please feel free to view our application👇🏿'
               link = 'https://joia.herokuapp.com/'
               ></Project>
           </Col>
@@ -295,11 +290,6 @@ function myProjects() {
             />
           </Col>
         </Row>
-
-        <a 
-        href='#'
-        className='to-top
-        '>Back to top</a>
       </Container>
     </Container>
   );
