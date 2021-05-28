@@ -9,11 +9,11 @@ function AboutCard() {
       <Card.Body>
         <blockquote className='blockquote mb-0'>
           <p style={{ textAlign: 'justify' }}>
-            I've been well-off, poor; and even homelss.  I am <span className='blue'>USMC War Veteran</span> My name is <span className='blue'>Frederick Thomas</span>; and I purpose to change my world!
+            I've been well-off, poor, and even homeless.  I am <span className='blue'>USMC War Veteran</span>. My name is <span className='blue'>Frederick Thomas</span>; and I purpose to change my world!
           </p>
 
           <p>
-            I recentyly survived an extremely rare disease (non-contagious); and shortly after, I battled COVID-19 (all during my Coding Bootcamp curriclum.  I <span className='blue'>never gave up</span>!  My father refers to me as "a fighting caterpillar"; because a caterpiller has to fight it's way out of the cocoon it spun (like humans, it has to get itself out the mess it put itself in).  <span className='blue'>I</span> fought and <span className='blue'>Won</span>:
+            I recently survived an extremely rare disease (non-contagious); and shortly after, I battled COVID-19 (all during my Coding Bootcamp curriclum.  I <span className='blue'>never gave up</span>!  My father refers to me as "a fighting caterpillar"; because a caterpiller has to fight it's way out of the cocoon it spun (like humans, it has to get itself out the mess it put itself in).  <span className='blue'>I</span> fought and <span className='blue'>Won</span>:
           </p>
 
 
