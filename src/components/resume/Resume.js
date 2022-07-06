@@ -119,7 +119,7 @@ function Resume() {
             <Resumecontent
               title='Musician, Actor, Writer, Comedian'
               content={[
-                'I am a Musican for over 32 years. I have been a Saxophonist for 27 years. Writing was once, my weakest element; and now it is a great strength. I like to act, when given the opportunity. I also love to laugh; and cause others to have a good time.'
+                'I am a Musican for over 33 years. I have been a Saxophonist for 28 years. Writing was once, my weakest element; and now it is a great strength. I like to act, when given the opportunity. I also love to laugh; and cause others to have a good time.'
               ]}
             />
 
