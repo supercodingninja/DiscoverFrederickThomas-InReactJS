@@ -7,8 +7,8 @@ import Resumecontent from './ResumeContent';
 import '../../style.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import axios from 'axios';
-import pdf from '../../Assets/Hire Frederick D Thomas Jr_May 2021.docx';
-import pdf2 from '../../Assets/Frederick Thomas_CV_2021.pdf';
+import pdf from '../../Assets/profileResume_07-03-22.docx';
+import pdf2 from '../../Assets/Frederick%20Thomas_CV_2022.docxf';
 
 function Resume() {
   // GET IN ON THIS, DAILY!!!!
